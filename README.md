@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DineFlow - restaurant automation platform
 
 MERN stack: **MongoDB + Express + React + Node**, with Three.js (landing page), Socket.IO (live orders), JWT auth with roles.
@@ -59,3 +60,6 @@ client/src
 - QR codes contain the address typed in **Tables & QR**. `localhost` only works on your computer; use your real domain (or your LAN address such as `http://192.168.1.20:5173` to test with a phone) before printing.
 - Production: `npm run build`, then `NODE_ENV=production npm start`. Express serves the built site and API from one port.
 - Logos are stored in MongoDB as small images (max about 300 KB). Move to object storage if you expect many restaurants.
+=======
+# DineFlow
+>>>>>>> f34cb801f610447fe9beb088092fb17c880c16f1
