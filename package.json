@@ -1,0 +1,16 @@
+{
+  "name": "dineflow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DineFlow - restaurant automation SaaS (QR menus, ordering, kitchen timers, billing)",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently -n api,web -c yellow,cyan \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "seed": "npm run seed --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
